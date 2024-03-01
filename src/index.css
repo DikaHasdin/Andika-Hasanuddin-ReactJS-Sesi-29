@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  width: 200vh;
+  height: 90vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.main-1 {
+  border-right: 2px solid black;
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  border: 1px solid black;
+  width: 170px;
+  height: 200px;
+}
+
+.card-img {
+  height: 120px;
+}
+
+img {
+  width: 170px;
+  height: 120px;
+}
+
+.card-judul {
+  border: 1px solid black;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-judul > div {
+  text-align: center;
+}
+
+.card-qty {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+table {
+  width: 100vh;
+}
+
+.inputPembayaran {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  width: 110px;
+}
